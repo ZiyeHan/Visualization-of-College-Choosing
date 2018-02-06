@@ -16,13 +16,19 @@
             <h1>Visualization of American College Choosing</h1>
         </div>
         <p>
-            <font color="brown" size="3px"><b>WHY?</b></font><br> Southeast Asian countries have a wide range of Human Development Index (HDI) values. HDI is based on a measure of social and economic development. When comparing HDI values, Brunei and Singapore are at the top. There is a tremendous gap when comparing Brunei and Singapore's Gross National Income to the rest of the countries. Singapore also has the highest life expectancy and years of schooling. As of now, it is the most developed country in Southeast Asia.
+            <font color="brown" size="3px"><b>WHY?</b></font><br> This is about <font color="red" size="3px"><b>education</b></font> and future. 
+            <br>
+            A good college choosing has great impact on a young man's career success, friend zone, living standard and entire life. 
+            <br>
+            <font color="red" size="3px"><b>But when it comes to choosing, there is too much information to take into consideration, including location, reputation, cost, acceptance possibility and more. This visualization is designed to help them.</b></font>
+            <br>
+            This is of public interest to more than 1 million people, including current students, potential students, and parents around the world.
         </p>
         <p>
-            <font color="brown" size="3px"><b>HOW?</b></font><br> I am going to use d3.js library mainly for this visualization job.
+            <font color="brown" size="3px"><b>HOW?</b></font><br> I am going to use d3.js library mainly for this visualization job. For data sources, I will use java to crawl data from a given website.
         </p>
         <p>
-            <font color="brown" size="3px"><b>WHAT?</b></font><br> Southeast Asian countries have a wide range of Human Development Index (HDI) values. HDI is based on a measure of social and economic development. When comparing HDI values, Brunei and Singapore are at the top. There is a tremendous gap when comparing Brunei and Singapore's Gross National Income to the rest of the countries. Singapore also has the highest life expectancy and years of schooling. As of now, it is the most developed country in Southeast Asia.
+            <font color="brown" size="3px"><b>WHAT?</b></font><br> Based on users’ inputs, I will visualize some good college choices for users. Not only will I put college badges on a map, I will also use animations to show how strong those suggestions are. When your mouse hover over a badge, animations will show some more info about that college, including your chances of acceptance, tuition, and arrows pointing to schools where applicants also apply to.
         </p>
         <br>
         <div class="iamge-demo" style="display: flex; justify-content: center;">
@@ -54,39 +60,46 @@
         <div class="container">
             <br/>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <h4 style="font-weight: bold">Visualization Sources</h4>
                     <p id="myParagraph">
-                        index.html <br/> index.js <br/> index.css
-                        <p>
+                        <a href="https://www.google.com/maps/d/viewer?mid=1IjH34QBV4oddgfC4v6cFd44vQew&hl=en_US&ll=37.451421825073524%2C-96.62956250000002&z=4" rel="stylesheet">Google College Mapping - Created by Google</a>
+                        <br>
+                        <a href="https://nces.ed.gov/ipeds/CollegeMap/" rel="stylesheet">College Map - Created by U.S. Department of Education</a>
+                        <br>
+                        <a href="https://sureshlodha.github.io/CMPS165_Fall2016_FinalProjects/ASEAN/" rel="stylesheet">ASEAN - Created by Justin Cheon, Mai Linh Ngo, and Omar Qureshi</a>
+                        <br>
+                        <a href="https://sureshlodha.github.io/CMPS263_Win2017/UCSCClasses/ucsc_classes/" rel="stylesheet">Finding UCSC Classes and Events - Created by Shiqi Wen, Wei Wei, and Hongyu Hua</a>
+                        <br>
+                        
+                    <p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <h4 style="font-weight: bold">Data Sources</h4>
                     <p id="myParagraph">
-                        Human Development Reports<br/>
-                        <a href="http://hdr.undp.org/en/composite/HDI">http://hdr.undp.org</a> <br> <br/> Thematic Mapping<br/>
-                        <a href="http://thematicmapping.org/downloads/world_borders.php">http://thematicmapping.org</a>
+                        NICHE - College Ranking<br/>
+                        <a href="https://www.niche.com/colleges/search/best-colleges-for-biology/">NICHE College Ranking Link</a> 
+                        <br> <br/> 
+                        NICHE - College Details<br/>
+                        <a href="https://www.niche.com/colleges/johns-hopkins-university/">NICHE College Details Link</a>
                         <p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <h4 style="font-weight: bold">References</h4>
                     <p id="myParagraph">
-                        <a href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">https://maxcdn.bootstrapcdn.com</a>
-                        <br/>
-                        <a href="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">https://ajax.googleapis.com</a>
-                        <br/>
-                        <a href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">https://maxcdn.bootstrapcdn.com</a>
-                        <br/>
-                        <a href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">https://fonts.googleapis.com</a>
-                        <br/>
-                        <a href="http://www.d3noob.org/2013/01/adding-grid-lines-to-d3js-graph.html" rel="stylesheet">http://www.d3noob.org</a>
-                        <br/>
-                        <a href="http://bl.ocks.org/zanarmstrong/05c1e95bf7aa16c4768e" rel="stylesheet">http://bl.ocks.org</a>
-                        <br/>
-                        <a href="http://www.w3schools.com/js/js_htmldom_nodes.asp" rel="stylesheet">http://www.w3schools.com</a>
-                        <br/>
-                        <a href="http://www.w3schools.com/js/js_htmldom_navigation.asp" rel="stylesheet">http://www.w3schools.com/js</a>
-                        <p>
+                        <a href="http://bl.ocks.org" rel="stylesheet">bl.ocks.org</a>
+                        <br>
+                        <a href="https://d3js.org/" rel="stylesheet">d3js.org</a>
+                        <br>
+                        <a href="http://www.w3schools.com" rel="stylesheet">w3schools.com</a>
+                        <br>
+                        <a href="https://getbootstrap.com" rel="stylesheet">getbootstrap.com</a>
+                        <br>
+                        <a href="https://canvas.ucsc.edu/courses/9985/modules/items/27627" rel="stylesheet">Final Projects: Winter 2017</a>
+                        <br>
+                        <a href="https://canvas.ucsc.edu/courses/9985/modules/items/27625" rel="stylesheet">Final Projects: Fall 2016</a>
+                        <br>
+                    </p>
                 </div>
             </div>
         </div>
