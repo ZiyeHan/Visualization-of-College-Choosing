@@ -7,4 +7,6 @@ This is both for CMPS 263 class, and also for my personal interests.
 
 Hope this visualization can help someone with college choosing :)
 
+Here is the url: https://ziyehan.github.io/Visualization-of-College-Choosing/
+
 <br>
